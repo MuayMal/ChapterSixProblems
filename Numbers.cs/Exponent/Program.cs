@@ -9,7 +9,13 @@ namespace Exponent
     {
         public static int Square(int a)
         {
-            
+            a = a * a;
+
+            return (a);
+        }
+        public static int Cube(int a)
+        {
+            a = a * a * a;
 
             return (a);
         }
@@ -17,7 +23,11 @@ namespace Exponent
         static void Main(string[] args)
         {
             String input = Console.ReadLine();
+            
             int n = Convert.ToInt32(input);
+            
+            Console.WriteLine(Square(n));
+            Console.WriteLine(Cube(n));
         }
     }
 }
