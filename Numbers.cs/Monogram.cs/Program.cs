@@ -7,16 +7,7 @@ namespace Monogram.cs
 {
     class Program
     {
-        public static void ConsoleWriteLineDupe (string msg, params object[] parameters)
-        {
-            for (int i = 0; i < parameters.Length; i++)
-            {
-                msg = msg.Replace("{" + i + "}", parameters[i].ToString());
-            }
-
-            Console.WriteLine(msg);
-        }
-
+       
 
         public static void Monogram(char a, char b, char c, char d, char e, char f)
         {
