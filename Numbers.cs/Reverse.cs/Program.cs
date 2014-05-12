@@ -8,11 +8,11 @@ namespace Reverse.cs
     class Program
     {
 
-        public static int Square(int a)
+        public static int Square(ref int a)
         {
 
-            
-            Console.WriteLine("{0} * {1} = {2}", a, a, a * a);
+
+            a = a * a;
 
             return a;
         }
@@ -21,8 +21,12 @@ namespace Reverse.cs
             Console.Write("Enter a number: ");
             string input = Console.ReadLine();
             int n = Convert.ToInt32(input);
-
             
+            Console.WriteLine(n);
+
+            Square(ref n);
+
+            Console.WriteLine(n);
 
         }
     }

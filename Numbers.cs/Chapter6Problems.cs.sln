@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exponent", "Exponent\Expone
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square", "Reverse.cs\Square.csproj", "{AEEC5CA7-935A-48B8-AFB2-758AF5FBD652}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse3.cs", "Reverse3.cs\Reverse3.cs.csproj", "{8095E80F-9A7D-4CA1-9641-6CC814BDA559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse4.cs", "Reverse4.cs\Reverse4.cs.csproj", "{51A5EEED-5A2F-4C81-80BA-41BAFC683E90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -49,6 +53,14 @@ Global
 		{AEEC5CA7-935A-48B8-AFB2-758AF5FBD652}.Debug|x86.Build.0 = Debug|x86
 		{AEEC5CA7-935A-48B8-AFB2-758AF5FBD652}.Release|x86.ActiveCfg = Release|x86
 		{AEEC5CA7-935A-48B8-AFB2-758AF5FBD652}.Release|x86.Build.0 = Release|x86
+		{8095E80F-9A7D-4CA1-9641-6CC814BDA559}.Debug|x86.ActiveCfg = Debug|x86
+		{8095E80F-9A7D-4CA1-9641-6CC814BDA559}.Debug|x86.Build.0 = Debug|x86
+		{8095E80F-9A7D-4CA1-9641-6CC814BDA559}.Release|x86.ActiveCfg = Release|x86
+		{8095E80F-9A7D-4CA1-9641-6CC814BDA559}.Release|x86.Build.0 = Release|x86
+		{51A5EEED-5A2F-4C81-80BA-41BAFC683E90}.Debug|x86.ActiveCfg = Debug|x86
+		{51A5EEED-5A2F-4C81-80BA-41BAFC683E90}.Debug|x86.Build.0 = Debug|x86
+		{51A5EEED-5A2F-4C81-80BA-41BAFC683E90}.Release|x86.ActiveCfg = Release|x86
+		{51A5EEED-5A2F-4C81-80BA-41BAFC683E90}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

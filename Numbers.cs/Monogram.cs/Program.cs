@@ -9,12 +9,11 @@ namespace Monogram.cs
     {
        
 
-        public static void Monogram(char a, char b, char c, char d, char e, char f)
+        public static void Monogram(char a, char b, char c)
         {
 
            Console.WriteLine("** {0}.{1}.{2}. **",a,b,c);
 
-           Console.WriteLine("** {0}.{1}.{2}. **", d, e, f); 
         }
 
         static void Main(string[] args)
@@ -22,8 +21,8 @@ namespace Monogram.cs
             char f1 = 'M', m1 = 'Q', l1 = 'T', f2 = 'T', m2 = 'L', l2 = 'M';
 
             
-            Monogram(f1,m1,l1,f2,m2,l2);
-
+            Monogram(f1,m1,l1);
+            Monogram(f2, m2, l2);
         }
     }
 }
